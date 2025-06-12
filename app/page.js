@@ -12,7 +12,7 @@ const style = {
 export default function Home() {
   return (
     <div className="flex justify-center translate-y-30">
-      <h1 className="font-bold sm:text-5xl md:text-7xl text-4xl">
+      <h1 className="font-bold sm:text-5xl md:text-6xl xl:text-7xl text-3xl">
         Агенство нерухомості <br />
         <span
           className="flex justify-center text-transparent py-5"
