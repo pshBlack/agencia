@@ -2,6 +2,7 @@ import NavigationBar from "./ui/NavigationBar";
 import { MobileBar } from "./ui/MobileBar";
 import "./globals.css";
 import { Separator } from "@/components/ui/separator";
+import FooterBar from "./ui/FooterBar";
 
 export default function RootLayout({ children }) {
   return (
@@ -22,6 +23,7 @@ export default function RootLayout({ children }) {
           </div>
           <Separator orientation="horizontal" className="mb-4 bg-black" />
           {children}
+          <FooterBar />
         </div>
       </body>
     </html>

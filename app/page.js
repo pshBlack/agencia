@@ -13,6 +13,8 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import Image from "next/image";
+import { Carousel } from "@/components/ui/carousel";
+import CarouselUI from "./ui/CarouselUI";
 
 const style = {
   backgroundImage:
@@ -268,6 +270,15 @@ export default function Home() {
             </CardContent>
           </Card>
         </div>
+      </div>
+      <div className="flex flex-col mt-15 justify-center items-center">
+        <span className="md:text-4xl text-3xl font-bold mb-2">Відгуки:</span>
+        <p className="md:text-md text-sm">
+          Подивіться, що про нас думають інші!
+        </p>
+      </div>
+      <div className="my-20 flex justify-center w-full">
+        <CarouselUI className="" />
       </div>
     </div>
   );
