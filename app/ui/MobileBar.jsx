@@ -17,7 +17,7 @@ export function MobileBar() {
           <Menu className="mt-1.5 size-10 cursor-pointer ml-2.5" />
         </SheetTrigger>
         <SheetContent className="flex flex-col items-center max-w-[48%]">
-          <SheetHeader className="text-4xl gap-10">
+          <SheetHeader className="text-3xl gap-10">
             <SheetTitle className="mt-10">
               <Link href="/">Головна</Link>
             </SheetTitle>
