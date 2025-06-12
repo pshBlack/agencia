@@ -13,7 +13,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import Image from "next/image";
-import { Carousel } from "@/components/ui/carousel";
+
 import CarouselUI from "./ui/CarouselUI";
 
 const style = {

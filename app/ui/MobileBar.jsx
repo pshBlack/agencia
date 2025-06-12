@@ -30,17 +30,12 @@ export function MobileBar() {
             </SheetTitle>
             <SheetTitle className="">
               <SheetClose asChild>
-                <Link href="/sell">Купити квартиру</Link>
+                <Link href="/sell">Оформити заявку</Link>
               </SheetClose>
             </SheetTitle>
             <SheetTitle className="">
               <SheetClose asChild>
                 <Link href="/about-company">Про компанію</Link>
-              </SheetClose>
-            </SheetTitle>
-            <SheetTitle className="">
-              <SheetClose asChild>
-                <Link href="/contacts">Контакти</Link>
               </SheetClose>
             </SheetTitle>
             <SheetTitle className="">

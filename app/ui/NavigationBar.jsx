@@ -47,15 +47,6 @@ export default function NavigationBar() {
           </NavigationMenuItem>
           <NavigationMenuItem
             className={
-              path === "/contacts" ? "bg-green-300 rounded-2xl" : "rounded-xl"
-            }
-          >
-            <NavigationMenuLink asChild>
-              <Link href="/contacts">Контакти</Link>
-            </NavigationMenuLink>
-          </NavigationMenuItem>
-          <NavigationMenuItem
-            className={
               path === "/comments" ? "bg-green-300 rounded-2xl" : "rounded-xl"
             }
           >
