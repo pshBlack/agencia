@@ -16,7 +16,7 @@ export default function NavigationBar() {
   const path = usePathname();
   return (
     <>
-      <NavigationMenu viewport={false}>
+      <NavigationMenu viewport={true} className="bg-[#E5E1DA]">
         <NavigationMenuList className={"gap-8"}>
           <NavigationMenuItem
             className={path === "/" ? "bg-green-300 rounded-2xl" : "rounded-xl"}

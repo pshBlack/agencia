@@ -1,11 +1,23 @@
 import { Button } from "@/components/ui/button";
+import "./page.css";
+const style = {
+  backgroundImage:
+    "linear-gradient(260deg,rgba(73, 199, 252, 1) 42%, rgba(43, 255, 89, 1) 76%)  ",
+  backgroundSize: "200% 200%", // ⭐ Ключевой момент! Делаем градиент больше элемента
+  backgroundClip: "text",
+  WebkitBackgroundClip: "text", // Для Safari
+  animation: "Gradient 15s ease infinite",
+};
 
 export default function Home() {
   return (
     <div className="flex justify-center translate-y-30">
-      <h1 className="font-bold text-7xl">
+      <h1 className="font-bold sm:text-5xl md:text-7xl text-4xl">
         Агенство нерухомості <br />
-        <span className="flex justify-center bg-clip-text text-transparent py-5 bg-linear-to-r from-green-400 to-sky-400">
+        <span
+          className="flex justify-center text-transparent py-5"
+          style={style}
+        >
           CoolAgency
         </span>
       </h1>
