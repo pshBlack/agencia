@@ -26,7 +26,7 @@ export default function CarouselUI() {
       >
         <CarouselContent>
           {data.testimonials.map((item, index) => (
-            <CarouselItem key={index} className="basis-1/3 b">
+            <CarouselItem key={index} className="lg:basis-1/3 basis-1/2">
               <div className="flex flex-col items-center">
                 <Image
                   src={item.avatar}
@@ -35,9 +35,9 @@ export default function CarouselUI() {
                   height={100}
                   className="rounded-full"
                 />
-                <div className="flex flex-col items-center justify-center">
+                <div className="flex flex-col">
                   <p className="text-lg font-bold">{item.name}</p>
-                  <p className="text-sm text-muted-foreground xl:w-75 wrap-break-word">
+                  <p className="text-sm text-muted-foreground xl:w-75 w-50 text-pretty">
                     {item.text}
                   </p>
                 </div>
