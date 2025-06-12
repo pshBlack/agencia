@@ -1,5 +1,6 @@
 import {
   Sheet,
+  SheetClose,
   SheetContent,
   SheetDescription,
   SheetHeader,
@@ -9,6 +10,7 @@ import {
 import Image from "next/image";
 import Link from "next/link";
 import { Menu } from "lucide-react";
+import * as SheetPrimitive from "@radix-ui/react-dialog";
 export function MobileBar() {
   return (
     <>
@@ -16,22 +18,35 @@ export function MobileBar() {
         <SheetTrigger>
           <Menu className="mt-1.5 size-10 cursor-pointer ml-2.5" />
         </SheetTrigger>
-        <SheetContent className="flex flex-col items-center max-w-[48%]">
+        <SheetContent
+          className="flex flex-col items-center max-w-[48%]"
+          side="left"
+        >
           <SheetHeader className="text-3xl gap-10">
             <SheetTitle className="mt-10">
-              <Link href="/">Головна</Link>
+              <SheetClose asChild>
+                <Link href="/">Головна</Link>
+              </SheetClose>
             </SheetTitle>
             <SheetTitle className="">
-              <Link href="/sell">Купити квартиру</Link>
+              <SheetClose asChild>
+                <Link href="/sell">Купити квартиру</Link>
+              </SheetClose>
             </SheetTitle>
             <SheetTitle className="">
-              <Link href="/about-company">Про компанію</Link>
+              <SheetClose asChild>
+                <Link href="/about-company">Про компанію</Link>
+              </SheetClose>
             </SheetTitle>
             <SheetTitle className="">
-              <Link href="/contacts">Контакти</Link>
+              <SheetClose asChild>
+                <Link href="/contacts">Контакти</Link>
+              </SheetClose>
             </SheetTitle>
             <SheetTitle className="">
-              <Link href="/comments">Відгуки</Link>
+              <SheetClose asChild>
+                <Link href="/comments">Відгуки</Link>
+              </SheetClose>
             </SheetTitle>
           </SheetHeader>
         </SheetContent>
