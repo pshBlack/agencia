@@ -28,7 +28,7 @@ const style = {
 export default function Home() {
   const router = useRouter();
   const handleClick = () => {
-    router.push("/contacts");
+    router.push("/sell");
   };
 
   return (
@@ -50,8 +50,8 @@ export default function Home() {
           variant="outline"
           onClick={handleClick}
         >
-          Купити квартиру
-          <ArrowRight className="ml-2" />
+          Оформити заявку
+          <ArrowRight className="ml-2 translate-y-0.5" />
         </Button>
       </div>
 

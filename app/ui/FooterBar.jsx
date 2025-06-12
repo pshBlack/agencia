@@ -2,7 +2,7 @@ import { LiaTelegram, LiaViber, LiaInstagram } from "react-icons/lia";
 
 export default function FooterBar() {
   return (
-    <footer className="bg-[#E5E1DA] mt-15 py-5 ">
+    <footer className="bg-[#E5E1DA] mt-15 py-5 h-max absolute w-full">
       <div className="flex sm:justify-end items-center mx-15 gap-15 flex-col sm:flex-row">
         <div className="">
           <h4 className="font-bold">Зв'язатися з нами: </h4>

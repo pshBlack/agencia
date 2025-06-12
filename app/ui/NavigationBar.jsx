@@ -31,7 +31,7 @@ export default function NavigationBar() {
             }
           >
             <NavigationMenuLink asChild>
-              <Link href="/sell">Купити квартиру</Link>
+              <Link href="/sell">Оформити заявку</Link>
             </NavigationMenuLink>
           </NavigationMenuItem>
           <NavigationMenuItem
