@@ -35,9 +35,9 @@ export default function CarouselUI() {
                   height={100}
                   className="rounded-full"
                 />
-                <div className="flex flex-col">
+                <div className="flex flex-col justify-end">
                   <p className="text-lg font-bold">{item.name}</p>
-                  <p className="text-sm text-muted-foreground xl:w-75 w-50 text-pretty">
+                  <p className="text-sm text-muted-foreground xl:w-75">
                     {item.text}
                   </p>
                 </div>
