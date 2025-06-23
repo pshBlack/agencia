@@ -25,7 +25,7 @@ export default function ChartUI() {
   return (
     <ChartContainer
       config={chartConfig}
-      className="min-h-[200px] w-9/12 max-h-[400px]"
+      className="min-h-[200px] min-w-9/12 max-h-[400px]"
     >
       <BarChart accessibilityLayer data={chartData}>
         <CartesianGrid vertical="false" />
