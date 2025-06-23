@@ -2,15 +2,12 @@ import {
   Sheet,
   SheetClose,
   SheetContent,
-  SheetDescription,
   SheetHeader,
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
-import Image from "next/image";
 import Link from "next/link";
 import { Menu } from "lucide-react";
-import * as SheetPrimitive from "@radix-ui/react-dialog";
 export function MobileBar() {
   return (
     <>

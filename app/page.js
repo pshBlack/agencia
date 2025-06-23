@@ -5,10 +5,7 @@ import { useRouter } from "next/navigation";
 import { ArrowRight, Trophy, MessageCircle, House, Zap } from "lucide-react";
 import {
   Card,
-  CardAction,
   CardContent,
-  CardDescription,
-  CardFooter,
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";

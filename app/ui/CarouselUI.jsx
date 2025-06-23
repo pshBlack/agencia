@@ -2,10 +2,7 @@ import {
   Carousel,
   CarouselContent,
   CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
 } from "@/components/ui/carousel";
-import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import comments_data from "../constants/comments";
 import Autoscroll from "embla-carousel-auto-scroll";

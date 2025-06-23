@@ -12,12 +12,10 @@ export default function RootLayout({ children }) {
       </head>
       <body>
         <div className="min-h-screen flex-1">
-          {/* Десктопная навигация - скрывается на мобильных */}
           <div className="hidden md:block bg-[#E5E1DA]">
             <NavigationBar />
           </div>
 
-          {/* Мобильная навигация - показывается только на мобильных */}
           <div className="block md:hidden bg-[#E5E1DA]">
             <MobileBar />
           </div>
